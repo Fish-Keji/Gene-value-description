@@ -9,7 +9,7 @@ import xlrd
 import xlwt
 #读取被查找表格
 book1 = xlrd.open_workbook('/Users/apky/Desktop/待查表格.xlsx')
-sheet1 = book1.sheet_by_name('t_ans2vsWT_deg_up')
+sheet1 = book1.sheet_by_name('sheet名称')
 gene_ID = sheet1.col_values(0)
 FoldChange = sheet1.col_values(9)
 Pvalue = sheet1.col_values(10)
